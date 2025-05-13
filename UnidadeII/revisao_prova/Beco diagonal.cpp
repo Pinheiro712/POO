@@ -7,6 +7,8 @@ Escreva uma Classe Livro que tenha como atributos título e nome do autor. Forne
 Forneça mais métodos caso julgue necessário.
 
 Responda: o que é abstração?
+
+Resposta: abstração é a diferença entre as operações ou métodos internos para os externos.
 */
 
 class Livro{
