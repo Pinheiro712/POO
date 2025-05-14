@@ -9,22 +9,22 @@ class Livro{
     string titulo;
 
     public:
-    Livro(string titulo, string nomea){
-        this-> nomea = nomea;
-        settitulo(titulo);
-    };
-    string gettitulo () const{
+    Livro(string titulo, string nomea): titulo(titulo), nomea(nomea){}
+    string gettitulo()const {
         return titulo;
     }
-    string getnomea () const{
+    string getnomea() const{
         return nomea;
     }
 
+
     void settitulo(string titulo){
         this->titulo = titulo;
-    };
+    }
     void setnomea(string nomea){
-        this->nomea = nomea;
-    };
+        this-> titulo = titulo;
+    }
+
+    
 };
 #endif
